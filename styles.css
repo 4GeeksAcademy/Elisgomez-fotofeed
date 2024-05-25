@@ -1,0 +1,77 @@
+.titulo {
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    /* border: 2px solid green; */
+    }
+.contenedor {
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: center;
+    background-color: aqua;
+}
+.card {
+    /* border: 2px solid red; */
+    width: 400px;
+    background-color: white;
+    margin-top: 50px;
+}
+.uno {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.uno div {
+    display: flex;
+    }
+h2 {
+    margin: 0;
+
+}    
+.dos {
+    /* border: 2px solid blue; */
+    display: flex;
+}
+img {
+    width: 387px;
+    height: 300px;
+    padding: 5px;
+}
+.tres {
+    /* border: 2px solid blue; */
+    padding: 10px;
+}
+p {
+    margin: 0;
+    font-size: 10px;
+}
+a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.card1 {
+    width: 400px;
+    background-color: white;
+    margin-top: 50px;
+    grid-area: 2/1;
+    }
+    .card2 {
+        width: 400px;
+        background-color: white;
+        margin-top: 50px;
+        grid-area: 3/1;
+        }
+
+     .card3 {
+        width: 400px;
+        background-color: white;
+        margin-top: 50px;
+        grid-area: 4/1;
+        }  
